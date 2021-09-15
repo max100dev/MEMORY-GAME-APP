@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Memory Game App is an portfolio application made by Junior Front End Developer - Max100Dev. Technologies used in project: HTML, CSS, JavaScript. ">
+    <title>Memory Game App | by Max100Dev</title>
+    <link rel="icon" href="./img/tabicon.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="introduction theme">
+        <h1 class="title-intro">Welcome to the Memory Game!</h1>
+        <h3 class="author-intro">made by Max100Dev</h3>
+    </section>
+
+    <section class="difficulty theme">
+        <h1 class="title-intro">Choose the Difficulty</h1>
+        <div class="button-showcase">
+            <button class="btn-easy btn-difficulties btn-intro btn">Easy</button>
+            <button class="btn-medium btn-difficulties  btn-intro btn">Medium</button>
+            <button class="btn-hard btn-difficulties  btn-intro btn">Hard</button>
+        </div>
+    </section>
+
+    <section class="category theme">
+        <h1 class="title-intro">Choose the Category</h1>
+        <div class="button-showcase">
+            <button class="btn-history btn-categories btn-intro btn">History</button>
+            <button class="btn-music btn-categories btn-intro btn">Animals</button>
+            <button class="btn-program btn-categories btn-intro btn">Programming</button>
+        </div>
+    </section>
+
+    <section class="game theme"> 
+        <div class="info-section">
+            <div class="check-or-cross">
+                
+            </div>
+            <h1 class="game-title">Good Luck!</h1>
+            <div class="lives">
+            </div>
+        </div>
+
+        <div class="card-container">
+        </div>
+    </section>
+
+    <section class="ended-by-win theme">
+        <div class="win-img">
+            <img class="win-graph" src="./img/congrats.png" alt="">
+        </div>
+        <div class="flattery">
+            <h1 class="flattery-title title-intro"><span class="win-title">Congratulations!</span> That was a Great One!! :)</h1>
+        </div>
+        <div class="button-showcase">
+            <a href="/"><button class="btn-end-reset btn">Reset</button></a>
+        </div>    
+    </section>
+
+    <section class="ended-by-lose theme">
+        
+        <div class="lose-img">
+            <img class="lose-graph" src="./img/giveup.png" alt="">
+        </div>
+        <div class="flattery">
+            <h1 class="flattery-title title-intro"><span class="lose-title">Don't Worry!</span> It Will Be Better Next Time!!</h1>
+        </div>
+        <div class="button-showcase">
+            <a href="/"><button class="btn-end-reset btn">Reset</button></a>
+        </div>    
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
